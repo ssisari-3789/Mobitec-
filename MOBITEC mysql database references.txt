@@ -1,0 +1,12 @@
+create table product(
+	id int AUTO_INCREMENT PRIMARY KEY,
+	description varchar(255),
+	image varchar(255),
+	price double
+);
+
+insert into product(description,image,price)values
+('iphone x','1.png',145000),
+('iphone 11','2.png',160000),
+('iphone 16','3.png',250000),
+('iphone 16 Pro','4.png',295000);
