@@ -1,4 +1,4 @@
-/* Create the product table*/
+/* Create the product table with product description, image, price */
 create table product(
 	id int AUTO_INCREMENT PRIMARY KEY,
 	description varchar(255),
