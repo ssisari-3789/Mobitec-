@@ -1,3 +1,4 @@
+/* Create the product table*/
 create table product(
 	id int AUTO_INCREMENT PRIMARY KEY,
 	description varchar(255),
@@ -5,6 +6,7 @@ create table product(
 	price double
 );
 
+/*Insert values to the product table*/
 insert into product(description,image,price)values
 ('iphone x','1.png',145000),
 ('iphone 11','2.png',160000),
