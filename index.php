@@ -94,7 +94,7 @@
         }
         
 
-        @keyframes example {
+        @keyframes example {          /*animation for color changing*/
             from {background-color: #e1e8ff;}
             to {background-color: #1a1b4b;}
 
