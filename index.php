@@ -141,7 +141,7 @@
                 }
             }
         ?>
- <div style="clear: both"></div>
+ <div style="clear: both"></div>                 <!--Shopping Cart Table Section-->
         <h3 class="title2">Shopping Cart Details</h3>
         <div class="table-responsive">
             <table class="table table-bordered">
