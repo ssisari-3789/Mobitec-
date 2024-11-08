@@ -1,7 +1,7 @@
 <?php
     session_start();
     $db_name = "shopping";
-    $connection = mysqli_connect("localhost","root","",$db_name);
+    $connection = mysqli_connect("localhost","root","",$db_name);  //DB connection
 
     if(isset($_POST["add"])){
         if(isset($_SESSION["shopping_cart"])){
