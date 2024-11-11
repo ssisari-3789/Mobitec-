@@ -4,7 +4,7 @@
     $connection = mysqli_connect("localhost","root","",$db_name);  //DB connection
 
     if(isset($_POST["add"])){
-        if(isset($_SESSION["shopping_cart"])){
+        if(isset($_SESSION["shopping_cart"])){     //shopping cart 
             $item_array_id = array_column($_SESSION["shopping_cart"],"product_id");
             if(!in_array($_GET["id"],$item_array_id)){
                 $count = count($_SESSION["shopping_cart"]);
