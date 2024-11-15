@@ -21,7 +21,7 @@
                 echo '<script>window.location="index.php"</script>';
             }
         }else{
-            $item_array = array(
+            $item_array = array(      //product item array
                 'product_id' => $_GET["id"],
                 'product_name' => $_POST["hidden_name"],
                 'product_price' => $_POST["hidden_price"],
