@@ -36,7 +36,7 @@
             foreach($_SESSION["shopping_cart"] as $keys => $value){
                 if($value["product_id"] == $_GET["id"]){
                     unset($_SESSION["shopping_cart"][$keys]);
-                    echo '<script>alert("Product has been removed")</script>';
+                    echo '<script>alert("Product has been removed")</script>';    //product remove alert
                     echo '<script>window.location="index.php"</script>';
                 }
             }
